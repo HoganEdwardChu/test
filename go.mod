@@ -3,6 +3,8 @@ module github.com/pinpoint-apm/pinpoint-go-agent
 go 1.15
 
 require (
+	github.com/apache/calcite-avatica-go/v5 v5.2.0
+	github.com/denisenkom/go-mssqldb v0.12.3
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2

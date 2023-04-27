@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	pphttp "github.com/pinpoint-apm/pinpoint-go-agent/plugin/http"
 	"log"
 	"net/http"
 	"os"
 
 	"github.com/Shopify/sarama"
 	"github.com/pinpoint-apm/pinpoint-go-agent"
-	"github.com/pinpoint-apm/pinpoint-go-agent/plugin/http"
 	"github.com/pinpoint-apm/pinpoint-go-agent/plugin/sarama"
 )
 

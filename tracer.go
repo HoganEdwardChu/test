@@ -229,6 +229,8 @@ const (
 	ServiceTypeKafkaClient           = 8660
 	ServiceTypeHbaseClient           = 8800
 	ServiceTypeGoElastic             = 9204
+	ServiceTypeAvatica               = 9999
+	ServiceTypeAvaticaExecuteQuery   = 9998
 )
 
 // annotation keys pre-defined
